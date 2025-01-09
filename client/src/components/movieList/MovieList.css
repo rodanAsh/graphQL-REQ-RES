@@ -18,3 +18,30 @@
     padding: 10px 20px;
     border-radius: 10px;
 }
+
+.movie-input{
+    margin-top: 40px;
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.movie-input>input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #222;
+    font-size: 18px;
+}
+
+.movie-input>input::placeholder{
+    color: #222;
+}
+
+.movie-input>button{
+    background-color: tomato;
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: #222;
+}

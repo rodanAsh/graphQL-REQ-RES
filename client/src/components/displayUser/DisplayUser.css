@@ -17,3 +17,35 @@
     padding: 10px 20px;
     border-radius: 10px;
 }
+
+.create-user{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+    gap:10px
+}
+
+.create-user>input{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.create-user>input::placeholder{
+    color: white;
+}
+
+.create-user>button{
+    background-color: blue;
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}

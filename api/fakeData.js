@@ -94,7 +94,7 @@ const movieList = [
     },
     {
         id: 6,
-        name: "khaka Khaka",
+        name: "Khaka Khaka",
         yearOfRelease: 2004,
         isInTheater: false
     }
